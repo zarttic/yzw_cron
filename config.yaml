@@ -1,0 +1,20 @@
+mail: # 推荐使用qq邮箱
+  from: "你的qq邮箱"
+  to: ["随便一个你可以收到邮件的邮箱"] # 可以使用from的邮箱
+  subject: "上岸锦鲤护体-----研招网成绩查询" # 主题 随便写
+  addr: "smtp.qq.com:587" # 使用qq邮箱就不要动
+  username: "你的qq号"
+  password: "邮箱" #邮箱 -> 设置 -> SMTP服务获取
+  host: "smtp.qq.com"# 使用qq邮箱就不要动
+  identify: ""
+yzw:
+  xm: "玛琪玛"
+  zjhm: "你的证件号码"
+  ksbh: "你的考生编号"
+  bkdwdm: "报考学校的编号"
+  url: "https://yz.chsi.com.cn/apply/cjcx/cjcx.do" # 查询链接
+log:
+  filename: "log.log"
+  prefix: "[好运锦鲤_保佑上岸]"
+cron:
+  spec: "@every 1h"
